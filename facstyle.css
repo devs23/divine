@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+body{
+    background-color: white;
+    font-family: var(--Rubik);
+}
+:root{
+    --Snigle-font:"Snigle",cursive;
+    --Rubik:"Rubik",cursive;
+    --Patua:"Patua",cursive;
+    --Lobster:"Lobster",cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(
+        to bottom,
+        #dd2476,#ff512f);
+    --light-gray:rgba(255,255,255,0.5);
+}
+.section-4{
+    height: 100%;
+}
+.section-4,.section-5 .row{
+    padding: 3vmin;
+    height: 100%;
+}
+.section-4 .col-md-6{
+    border-radius: 0.2em;
+    box-shadow: 3px 5px 5px 3px rgba(0,0,0,0.2);
+    padding: 1vmin;
+    position: relative;
+}
+.section-4 .row i{
+    float: left;
+    position: relative;
+    width: 15%;
+}
+.section-4 .row .fas,.far{
+    font-size: 15vmin;
+    margin-right: 7vmin;
+    height: 100%;
+    padding-left: 1vmin;
+    padding-top: 3.5vmin;
+}
+.section-4 h1{
+    font-weight: bold;
+    font-size: 3em;
+    padding: 4vmin;
+    padding-bottom: 5vmin;
+}
+.section-4 h2{
+    font-weight: bold;
+}
+.section-5{
+    margin: 2vmin;
+}
+.section-5 .col-md-6{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 6vmin;
+    border-radius: 0.2em;
+    
+}
+.section-5 .col-md-6 .img{
+    position: relative;
+    width: 100%;
+    padding:5vmin;
+}
+.section-5 .col-md-6 img{
+    position: relative;
+    width: 45vmin;
+    height:30vmin;
+    border-radius: 0.6em;
+    
+}
+.section-5 .col-md-6 img:hover{
+    width:46vmin;
+    height: 31vmin;
+    border-radius: 0.7em;
+}

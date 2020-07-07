@@ -1,0 +1,41 @@
+@media only screen and (max-width:678px){
+    .section-1 .row .col-md-8 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .section-1 .row .col-md-4 .pray img{
+        width:80%;
+        border-radius: 0.2em;
+    }
+    .carousel h2{
+        font-size: 1.6em;
+    }
+    .section-3 .row{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    footer p{
+        font-size: 0.9em;
+    }
+    footer h3,h4{
+        font-size: 1.2em;
+    }
+    .section-6 .col-md-3{
+        position: initial;
+        width: 75%;
+        height: initial;
+    }
+    #hid{
+        display: block;
+        padding-left: 3vmin;
+        color: red;
+    }
+    
+}
+@media only screen and (max-width:1278px) and (min-width:1178px){
+    .section-6 .col-md-3{
+        width: 50%;
+    }
+}
