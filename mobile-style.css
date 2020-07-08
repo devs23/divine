@@ -32,6 +32,9 @@
         padding-left: 3vmin;
         color: red;
     }
+    .section-4 .col-md-6{
+        height:100%;
+    }
     
 }
 @media only screen and (max-width:1278px) and (min-width:1178px){
